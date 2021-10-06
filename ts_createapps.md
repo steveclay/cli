@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2021
-lastupdated: "2021-10-05"
+lastupdated: "2021-10-06"
 
 keywords: cli, troubleshoot cli, debug app cli, developer tools debug, ibmcloud cli debug, ibmcloud help, ibmcloud dev help, cli debug, command line, command-line, developer tools troubleshoot
 
@@ -29,6 +29,27 @@ content-type: troubleshoot
 
 See solutions to common problems with using the {{site.data.keyword.cloud}} Command Line Interface. In many cases, you can recover from these problems by following a few easy steps.
 {: shortdesc}
+
+## Why do I get a failure when updating the CLI, updating a plug-in or installing a plug-in?
+{: #ts-cli-version-1-failure}
+{: troubleshoot}
+{: support}
+
+If you are attempting to update the {{site.data.keyword.cloud_notm}} CLI, or update or install a plug-in with a CLI version lower than 2.0.0, you will see an error similar to this.
+{: tsSymptoms}
+
+```
+An error occurred when fetching latest CLI info:
+invalid character '<' looking for beginning of value
+```
+{: screen}
+
+This error is caused by the older CLI version attempting to reach the deprecated CLI repo infrastructure.
+{: tsCauses}
+
+Download and install or replace the older CLI with the latest CLI version using these [instructions](/docs/cli?topic=cli-install-ibmcloud-cli).
+{: tsResolve}
+
 
 ## Why do I get a host name error when I create an application with a non-mobile pattern?
 {: #ts-cli-hostname-error}
