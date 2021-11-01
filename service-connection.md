@@ -41,7 +41,7 @@ To learn more about private connections on {{site.data.keyword.cloud_notm}}, see
 ## Logging in to the CLI with a private endpoint
 {: #cli-private-login}
 
-You can log-in to either a private endpoint for Classic or for VPC. To login using Classic infrastructure, use the following command to [log in](/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login) to a private endpoint by using the CLI:
+You can log in to either a private endpoint for Classic or for VPC. To log in using Classic infrastructure, use the following command to [log in](/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login) to a private endpoint by using the CLI:
 
 ```
 ibmcloud login -a private.cloud.ibm.com
